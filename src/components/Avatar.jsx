@@ -5,11 +5,19 @@ Command: npx gltfjsx@6.5.3 public/models/67eeaf59689407918a3354b5.glb -o src/com
 
 import React from 'react'
 import { useGraph } from '@react-three/fiber'
-import { useGLTF } from '@react-three/drei'
+import {useFBX, useGLTF} from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
 
 export function Avatar(props) {
   const { scene } = useGLTF('/models/67eeaf59689407918a3354b5.glb')
+    const {animations: idle} = useFBX("/animations/Idle.fbx")
+    const {animations: angry} = useFBX("/animations/Angry Gesture.fbx")
+    const {animations: greeting} = useFBX("/animations/Standing Greeting.fbx")
+
+    console.log(idle)
+
+
+
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone)
   return (
