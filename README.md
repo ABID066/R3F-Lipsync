@@ -1,29 +1,15 @@
-# React-Three-Fiber-Lipsync
-
-```
-yarn
-yarn dev
-```
 
 
-![image](https://i.ibb.co.com/SXgyC8vf/image.png)
+
+
 # React-Three-Fiber Lipsync
 
 This project is a 3D web application built with React, Three.js, and React-Three-Fiber. It leverages modern web technologies to create interactive 3D experiences, including lipsync animations.
-
-## Table of Contents
-
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+![image](https://i.ibb.co.com/SXgyC8vf/image.png)
 
 ## Demo
 
-You can check out the live demo of the project [here](#).
+You can check out the live demo of the project [here](https://r3-f-lipsync.vercel.app).
 
 ## Features
 
@@ -81,6 +67,4 @@ yarn preview
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
